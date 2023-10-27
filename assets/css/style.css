@@ -70,7 +70,7 @@ body {
     font-family: var(--tj-ff-body);
     font-weight: 400;
     line-height: 1.6;
-    overflow-x: hidden;
+    overflow-x: hidden; background-color: #f1f6fe;
 }
 
 input,
@@ -282,7 +282,7 @@ textarea:focus {
 }
 
 .header-section-three.header-sticky {
-    background: var(--tj-secondary-color);
+    background: #fff;
     box-shadow: 0px 0px 45px 0px rgba(255, 255, 255, 0.55);
 }
 
@@ -588,11 +588,11 @@ textarea:focus {
     position: absolute;
     width: 100%;
     z-index: 9;
-    padding-top: 0;
+    padding-top: 0;position: relative;
 }
 
 .header-section-three .tj-main-menu li a {
-    color: var(--tj-white-color);
+    color:#888888;
 }
 
 .header-section-three .tj-main-menu > ul > li.menu-item-has-children > a::before {
@@ -1345,7 +1345,7 @@ body [class*=" icon-"]::before {
     height: 2px;
     width: 30px;
     display: block;
-    background: var(--tj-white-color);
+    background: #000;
     cursor: pointer;
     list-style: none;
     margin: 8px 0;
@@ -1490,7 +1490,7 @@ body [class*=" icon-"]::before {
 }
 
 .tj-slider-section-three .slider-content {
-    margin-top: 275px;
+    
     max-width: 100%;
     position: relative;
     margin-bottom: 265px;
@@ -1575,7 +1575,7 @@ body [class*=" icon-"]::before {
 .tj-slider-section-three .slider-content .slider-title {
     color: var(--tj-white-color);
     display: block;
-    margin-bottom: 55px;
+    margin-bottom: 15px;
 }
 
 .slider-content {
@@ -1723,6 +1723,8 @@ body [class*=" icon-"]::before {
     margin-top: -95px;
     position: relative;
     z-index: 9;
+    border: solid 2px #338CFF;
+  border-radius: 15px;
 }
 
 .slider-tabs.slider-tabs-two .select-form-box {
@@ -1885,6 +1887,8 @@ body [class*=" icon-"]::before {
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     margin-bottom: 65px;
+    background: #368dff;
+    background-image: url(../images/banner/subscribe.png);
 }
 
 .service-item-two .service-image {
@@ -1902,7 +1906,7 @@ body [class*=" icon-"]::before {
     position: relative;
     padding-left: 50px;
     padding-top: 15px;
-    margin-bottom: -55px;
+    margin-bottom: -55px; color: #fff;
 }
 
 .service-item-two .services-icon {
@@ -1935,17 +1939,17 @@ body [class*=" icon-"]::before {
 }
 
 .service-item-two .service-title a {
-    font-size: 26px;
-    color: var(--tj-secondary-color);
+    font-size: 22px;
+    color: #fff;
     transition: 0.4s;
 }
 
 .service-item-two .service-title a:hover {
-    color: var(--tj-primary-color);
+    color: var(--tj-dark-color);
 }
 
 .service-item-two .service-title a:hover {
-    color: var(--tj-primary-color);
+    color: var(--tj-dark-color);
 }
 
 .service-item-two .des {
@@ -6804,7 +6808,7 @@ div .tj-service-icon-box2 ul li:hover .service-item::before {
 
 .tj-theme-button .tj-primary-btn.contact-btn {
     border: none;
-    margin-top: 130px;
+    margin-top: 30px;
 }
 
 .tj-contact-page .google-map {

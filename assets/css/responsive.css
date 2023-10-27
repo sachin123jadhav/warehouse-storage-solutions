@@ -1117,9 +1117,7 @@
     .tj-header-section .tj-theme-button.header-button {
         display: none;
     }
-    .tj-slider-section-three .slider-tabs {
-        display: none;
-    }
+  
     .tj-service-icon-box {
         position: initial;
         margin: 15px;
@@ -2114,3 +2112,50 @@ border-radius: 100%; margin-right: 15px; box-shadow: 0 0 15px 1px #0000002c; pos
 
 .tj-main-menu > ul > li.menu-item-has-children > a::before {
     content: "";}
+
+    .slider-content h6{margin-bottom: 40px; font-weight: 500;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width: 1200px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+          max-width: 1180px;
+        }
+      }
+
+
+    @media (min-width: 1366px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl {
+          max-width: 1330px;
+        }
+      }
+
+      @media (max-width: 600px) {
+
+        .reverse-md{flex-direction: column-reverse;}
+            }
