@@ -2159,3 +2159,27 @@ border-radius: 100%; margin-right: 15px; box-shadow: 0 0 15px 1px #0000002c; pos
 
         .reverse-md{flex-direction: column-reverse;}
             }
+
+
+
+
+
+            /* Mobile CSS */
+
+            .m-w-600{max-width: 600px; margin: auto;}
+            .header-logo {text-align: center; margin: 15px 0;}
+            .header-logo img{max-width: 200px; margin: auto;}
+.mobile-project .tj-project-item .tj-project-content{opacity: 1; visibility: visible;}
+.mobile-project .tj-project-item{ margin-bottom: 0;}
+.mobile-project .owl-dots{display: none;}
+.tj-project-item .tj-project-content{left: 10px; right: 10px;}
+.mobile-contact{background: #fff; padding: 15px}
+
+
+
+
+
+
+
+
+           
