@@ -1905,7 +1905,7 @@ body [class*=" icon-"]::before {
 .service-item-two .service-text {
     position: relative;
     padding-left: 50px;
-    padding-top: 15px;
+    padding-top: 0px;
     margin-bottom: -55px; color: #fff;
 }
 
@@ -1935,7 +1935,7 @@ body [class*=" icon-"]::before {
 }
 
 .service-item-two .service-title {
-    margin-bottom: 25px;
+    margin-bottom: 5px;line-height: 25px;
 }
 
 .service-item-two .service-title a {
@@ -6767,7 +6767,7 @@ div .tj-service-icon-box2 ul li:hover .service-item::before {
     padding: 25px 15px;
     font-size: 15px;
     background: none;
-    z-index: 1;
+    z-index: 1;border-radius: 5px;
 }
 
 .tj-animate-form .form__input.textarea {

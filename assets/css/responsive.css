@@ -2123,11 +2123,61 @@ border-radius: 100%; margin-right: 15px; box-shadow: 0 0 15px 1px #0000002c; pos
         width: 100%;padding: 15px 5px;font-weight: normal;
       }
 .mobile-sec h6{font-size: 18px;}
+.bg-light-blue{background-color: #338bff3f;}
 
+.tj-faq-section .tj-faq-area.main-acc{padding: 0;}
+.tj-faq-area.main-acc .accordion-item.main-item{border: none;}
 
+.tj-faq-area.main-acc .accordion .accordion-item .accordion-header .accordion-button.main-btn:not(.collapsed)::before, .accordion-button::after{content: '';background-image: none;}
+.tj-faq-area.main-acc .accordion .accordion-item .accordion-header .accordion-button.main-btn::before{content: '';background-image: none;}
+.tj-faq-area.main-acc .accordion-body.main-body {
+    padding: 0;
+  }
+  .tj-faq-area.main-acc .main-btn .tj-submit-btn{max-width: 200px;border: solid 1px #338cff;}
+  .tj-faq-area.main-acc .main-btn  .tj-submit-btn i{color: #338cff;}
+  .tj-faq-section.tj-faq-page.main-sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 
+@media (max-width: 1199px) and (min-width: 992px) {
+    .service-item-two .service-title a {
+        font-size: 20px;}   
+        .service-item-two .service-text {
+           
+            padding-top: 0px;
+            margin-bottom: 0;
+            
+            min-height: 220px;
+          }
 
-
+}
+@media (max-width: 600px) {
+.service-item-two .service-text{margin-bottom: 0;}
+.service-item-two{margin-bottom: 20px;}
+.mb-block a{display: block;}
+.cta-content-area{padding: 40px 0;}
+.tj-testimonial-section .tj-testimonial-slider {
+    padding: 0;
+  }
+  .tj-faq-section.tj-faq-page {
+    padding-top: 30px;
+  }
+  .tj-section-heading .title {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .cta-content .cta-text .title {
+    font-size: 20px;
+  }
+  .tj-slider-section-three .slider-content .slider-title, .tj-slider-section .slider-content .slider-title {
+    font-size: 30px;
+  }
+  .tj-section-heading .title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
 
 
 
